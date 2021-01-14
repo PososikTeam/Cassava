@@ -1,0 +1,1 @@
+python train.py --seed 322 --use-current -l tempared_log_loss -t1 0.7 -t2 2.0 -optim adam -v -m efficientnet-b5 -b 8 -e 150 -s 456 -f 0 -a medium -t runs\Jan11_04_04_efficientnet-b5_(456,)_medium_current_fold0\checkpoints\last_full.pth -lr 2.967e-4 -accum 4

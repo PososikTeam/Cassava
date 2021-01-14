@@ -1,0 +1,1 @@
+python train.py --seed 322 --use-current -l tempared_log_loss -t1 0.2 -t2 4.0 -optim adam -v -m efficientnet-b2 -b 16 -e 300 -s 260 -f 0 -a kaggle_light -lr 3e-4 -accum 4 -metric cosine_loss
